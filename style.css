@@ -58,9 +58,10 @@ body
     height: 60vmin;
 
     display: flex;
+    justify-content: space-between;
     align-items: center;
 
-    background: linear-gradient(to right, rgb(14, 14, 14) 30%, rgb(8, 36, 90));
+    background: linear-gradient(to left, rgb(14, 14, 14), rgb(8, 36, 90));
 
     border-radius: 15px;
     border-style: solid;
@@ -70,27 +71,209 @@ body
 
 #Header h1
 {
-    justify-self: flex-start;
-}
-
-#Header img
-{
-    justify-self: flex-end;
-}
-
-#HeaderText
-{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 7vmin;
-    letter-spacing: 0px;
 
+    letter-spacing: 0px;
     margin: 0;
     margin-left: 1vmax;
 }
 
-#HeaderImage
+#Header h2
+{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+
+    margin: 0;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+
+    float: left;
+}
+
+#Header img
 {
     width: 50vmin;
     float: right;
+}
+
+#Buttons
+{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 9vmin;
+}
+
+#ButtonNext
+{
+    border-radius: 15px;
+    border-style: none;
+}
+
+#ButtonPrev
+{
+    border-radius: 15px;
+    border-style: none;
+}
+
+#Button1
+{
+    border-radius: 15px;
+    border-style: none;
+}
+
+#Button2
+{
+    border-radius: 15px;
+    border-style: none;
+}
+
+#Button3
+{
+    border-radius: 15px;
+    border-style: none;
+}
+
+/* --------- Products ------------------------------------ */
+
+#SectionDiv
+{
+    display: flex;
+    justify-content: left;
+
+    width: 100%;
+}
+
+#SectionText
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5vmin;
+}
+
+#ProductsDiv
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding-left: 5vmax;
+    padding-right: 5vmax;
+
+}
+
+#Product1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #161616;
+
+    max-width: 40vmax;
+    width: fit-content;
+    height: 20vmin;
+
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(37, 37, 37);
+}
+
+#Product1 img
+{
+    max-height: 16vmin;
+    padding-left: 6px;
+}
+
+#Product1 h1
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6vmin;
+
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+#Product1 h2
+{
+    font-size: 2vmin;
+    font-family: 'Abel', sans-serif;
+    color: white;
+
+    margin: 0;
+    margin-top: 4px;
+}
+
+/* Fitness Ad -----------------------------*/
+
+#AdDiv
+{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+}
+
+#Advertisement
+{
+    background: #000000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 40vmax;
+    height: 35vmin;
+
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(37, 37, 37);
+    border-radius: 15px;
+
+    overflow-x: hidden;
+}
+
+#Advertisement h1
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3vmin;
+
+    letter-spacing: 0px;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#Advertisement h2
+{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 2.3vmin;
+
+    letter-spacing: 0px;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    float: left;
+}
+
+#Advertisement img
+{
+    height: 35vmin;
+    justify-self: space-between;
 }
