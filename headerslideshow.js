@@ -17,21 +17,21 @@ function Headers()
     {
         div.style.background = "linear-gradient(to left, rgb(14, 14, 14), rgb(8, 36, 90))";
         divtext.textContent = "Buy anything you want.";
-        divimg.src = "nikeshoe.png";
+        divimg.src = "images/nikeshoe.png";
     }
 
     else if(count === 2)
     {
         div.style.background = "linear-gradient(to left, rgb(14, 14, 14), gray)";
         divtext.textContent = "Save 35% on Under Armour products this week.";
-        divimg.src = "theboot.png";
+        divimg.src = "images/theboot.png";
     }
 
     else if(count === 3)
     {
         div.style.background = "linear-gradient(to left, rgb(14, 14, 14), limegreen)";
         divtext.textContent = "Get one for the price of two.";
-        divimg.src = "xbox.png";
+        divimg.src = "images/xbox.png";
     }
 
     //-----------------------------------------------
@@ -40,7 +40,7 @@ function Headers()
     {
         div.style.background = "linear-gradient(to left, rgb(14, 14, 14), rgb(8, 36, 90))";
         divtext.textContent = "Buy anything you want.";
-        divimg.src = "nikeshoe.png";
+        divimg.src = "images/nikeshoe.png";
 
         count = 1;
 
