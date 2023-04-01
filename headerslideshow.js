@@ -51,7 +51,7 @@ function Headers()
     {
         div.style.background = "linear-gradient(to left, rgb(14, 14, 14), limegreen)";
         divtext.textContent = "Get one for the price of two.";
-        divimg.src = "xbox.png";
+        divimg.src = "images/xbox.png";
 
         count = 3;
 
