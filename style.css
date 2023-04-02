@@ -145,39 +145,39 @@ body
     display: flex;
     justify-content: left;
 
-    width: 100%;
+    width: 80%;
 }
 
 #SectionText
 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5vmin;
+    font-size: 2.5vmin;
 }
 
 #ProductsDiv
 {
-    display: flex;
-    justify-content: left;
+    display: inline-flex;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 
-    padding-left: 5vmax;
-    padding-right: 5vmax;
+    width: 20vw;
+    height: fit-content;
 
+    margin-right: 2vmax;
 }
 
 #Product1
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     background: #161616;
 
-    max-width: 40vmax;
-    width: fit-content;
-    height: 20vmin;
+    width: 9vmax;
+    height: 8vmin;
 
     margin-right: 5px;
     margin-bottom: 5px;
@@ -192,7 +192,7 @@ body
 
 #Product1 img
 {
-    max-height: 16vmin;
+    max-height: 4vmin;
     padding-left: 6px;
 }
 
@@ -200,7 +200,7 @@ body
 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.6vmin;
+    font-size: 1vmin;
 
     letter-spacing: 0px;
     margin: 0;
@@ -208,7 +208,7 @@ body
 
 #Product1 h2
 {
-    font-size: 2vmin;
+    font-size: 0.6vmin;
     font-family: 'Abel', sans-serif;
     color: white;
 
@@ -256,18 +256,21 @@ body
     margin: 0;
     margin-left: 10px;
     margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 #Advertisement h2
 {
     color: white;
     font-family: 'Abel', sans-serif;
-    font-size: 2.3vmin;
+    font-size: 1.77vmin;
 
     letter-spacing: 0px;
     margin: 0;
-    margin-left: 5px;
+
+    margin-left: 10px;
     margin-right: 5px;
+    margin-top: 5px;
 
     float: left;
 }
