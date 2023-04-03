@@ -33,6 +33,13 @@ body
     margin-left: 1vmax;
 }
 
+#Searchbar
+{
+    width: 15vw;
+
+    margin-left: 2vmax;
+}
+
 .NavbarLink
 {
     color: white;
@@ -279,4 +286,70 @@ body
 {
     height: 35vmin;
     justify-self: space-between;
+}
+
+/* ---------------- idk ---------------- */
+
+#ProductDiv
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: fit-content;
+
+    margin-right: 2vmax;
+}
+
+#Product
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: #161616;
+
+    width: 20vmax;
+    height: 17vmin;
+
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(37, 37, 37);
+}
+
+#Product img
+{
+    max-height: 14vmin;
+    max-width: 10vmax;
+    padding-left: 4px;
+}
+
+#Product h1
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vmin;
+
+    letter-spacing: 0.2px;
+    margin: 0;
+    margin-left: 3px;
+}
+
+#Product h2
+{
+    font-size: 1vmin;
+    font-family: 'Abel', sans-serif;
+    color: white;
+
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 4px;
 }
